@@ -33,15 +33,13 @@ fun main() {
         "Nov" to "November",
         "Dec" to "December"
     )
-
-    // Print all month names with forEach function
+    
     monthMap.forEach { (key, value) ->
         println("$key -> $value")
     }
 
-    // Print current month's name and birth month
-    val monthNow = "Jun" // Replace with the current month's key
-    val birthMonth = "Oct" // Replace with your birth month's key
+    val monthNow = "Jun"
+    val birthMonth = "Oct"
 
     val currentMonthName = monthMap[monthNow]
     val birthMonthName = monthMap[birthMonth]
